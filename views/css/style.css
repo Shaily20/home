@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(141, 63, 63);
+    height: 100vh;
+    width: 100%;
+}
+
+.container .box a{
+    text-decoration: none ;
+}
+
+.box:nth-child(even){
+
+    background-color: white;
+}
+
+.box:nth-child(odd) {
+
+    background: black;
+}
+
+.div1,.div2,.container{
+    height: 100vh;
+    width: 33.3%;
+    display: inline-flex;
+
+/*}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;*/
+}
+
+.container .xtra{
+    height: 10vh;
+}
+
+.container .box{
+    height: 26vh;
+}
+
+
+
